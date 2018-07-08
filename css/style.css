@@ -173,7 +173,7 @@
   letter-spacing: 1px;
   margin-bottom: 22px;
 }
-.theme-title-two {position: relative;padding-top: 20px;}
+.theme-title-two {position: relative;padding-top: 20px;margin-bottom:55px;}
 .theme-title-two:before {
   content: '';
   position: absolute;
@@ -214,7 +214,9 @@
   background:linear-gradient( 41deg, rgb(26,192,237) 0%, rgb(43,236,220) 100%);
 }
 .home-page-one .theme-title-two:before {background: #0aebb3;}
-.home-page-one .boost-your-phone .text ul li i,.home-page-one .contact-us-section .contact-address .call:hover,
+.home-page-one .boost-your-phone .text ul li i,
+.home-page-one .advance-feature .feature-text ul li i,
+.home-page-one .contact-us-section .contact-address .call:hover,
 .home-page-one footer .bottom-footer ul.footer-menu li a:hover,
 .home-page-one .our-blog .single-blog .text>a,
 .home-page-one .our-blog .single-blog:hover .text h5 a,
@@ -663,6 +665,19 @@
 .advance-feature .feature-warpper .single-feature.bg-four {background-image: linear-gradient( 51deg, rgb(49,176,100) 0%, rgb(40,243,135) 100%);}
 .two-section-wrapper {
   background: url(../images/home/bg-3.png) no-repeat  center center;
+}
+.advance-feature .feature-text ul li {
+    font-weight: 500;
+    line-height: 35px;
+    color: #111111;
+    padding: 0 0 20px 45px;
+    position: relative;
+}
+.advance-feature .feature-text ul li i {
+    position: absolute;
+    top:0;
+    left:0;
+    font-size: 20px;
 }
 /*--------------------- Testimonial Slider --------------*/
 .testimonial-section .main-bg-wrapper {
